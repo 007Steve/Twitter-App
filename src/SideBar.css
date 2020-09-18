@@ -4,4 +4,21 @@
     width: 300px;
     color: white;
     height: 100vh;
+    border-right: 1px solid gray
+}
+button{
+    background-color: #00a2ff;
+    width: 180px;
+    border: none;
+    min-height: 50px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+button:hover{
+    background-color:#0892e2 ;
 }

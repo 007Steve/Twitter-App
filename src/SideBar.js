@@ -15,7 +15,7 @@ function SideBar() {
     return (
         <div className="sidebar">
           <SideBarOptions Icon={TwitterIcon} />
-          <SideBarOptions Icon={HomeIcon} title="Home"/>
+          <SideBarOptions Icon={HomeIcon} title="Home" active />
           <SideBarOptions Icon={SearchIcon } title="Explore"/>
           <SideBarOptions Icon={NotificationsNoneIcon} title="Notifications"/>
           <SideBarOptions Icon={MailOutlineIcon} title="Messages"/>
@@ -23,7 +23,7 @@ function SideBar() {
           <SideBarOptions Icon={ListAltIcon } title="Lists"/>
           <SideBarOptions Icon={PersonOutlineIcon } title="Profile"/>
           <SideBarOptions Icon={MoreHorizIcon} title="More"/>
-          
+          <button>Tweet</button>
         </div>
     )
 }

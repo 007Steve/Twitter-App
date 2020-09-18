@@ -1,19 +1,25 @@
 .sidebarOptions{
     display: flex;
-    justify-content: center;
     align-items: center;
     cursor: pointer;
     font-size: 10px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .sidebarOptions:hover{
    background-color: #162E43;
    border-radius: 50px;
-   color: #0a8dff;
+   color: #00a2ff;
+   transition: color 200ms ease-in;
 }
 
-.sidebarOptions__title{
-    margin-left: 5px;
+.sidebarOptions__icon{
+    padding: 20px;
 }
+
+.sidebarOptions--active{
+    color: #00a2ff;
+}
+
+
