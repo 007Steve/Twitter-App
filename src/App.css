@@ -1,6 +1,14 @@
 .App {
- display: flex;
+    display: flex;
+    background-color:#15202B;
+    justify-content: center;
+   
 }
 
 
 
+@media only screen and (max-width: 1486px) {
+    .App {
+        padding: 40px;
+     }
+   }

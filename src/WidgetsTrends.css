@@ -1,0 +1,19 @@
+.widgettrends{
+    display: block;
+    height: 80px;
+    margin-bottom: 6px;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 5px;
+}
+.widgettrends__trends{
+    color: silver;
+    font-size: 14px;
+}
+.widgettrends__trends > h3{
+    color: white;
+}
+hr{
+    border-top: 1px solid rgb(56, 68, 77);
+    
+}

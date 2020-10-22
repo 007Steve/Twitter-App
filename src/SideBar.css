@@ -1,10 +1,9 @@
 .sidebar{
     background-color:#15202B;
     display: block;
-    width: 300px;
     color: white;
     height: 100vh;
-    border-right: 1px solid gray
+    border-right: 1px solid rgb(56, 68, 77);
 }
 button{
     background-color: #00a2ff;
@@ -22,3 +21,9 @@ button{
 button:hover{
     background-color:#0892e2 ;
 }
+
+@media only screen and (max-width: 1486px) {
+    .sidebar {
+      display: none;
+     }
+   }

@@ -1,5 +1,26 @@
-.feed{
-    background-color: rgb(6, 44, 6);
-    width: 100%;
-    color: honeydew;
+.feed {
+  background-color:#15202B;
+  color: white;
+  min-width: fit-content;
 }
+.feed::-webkit-scrollbar{
+  display: none;
+}
+
+.feed__header {
+  position: sticky;
+  top: 0px;
+  border-bottom: 1px solid rgb(56, 68, 77);
+  z-index: 10;
+}
+
+.header__text {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+@media only screen and (max-width: 900px) {
+  .feed {
+    width: 100%;
+   }
+ }
